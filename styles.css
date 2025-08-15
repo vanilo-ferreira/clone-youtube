@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -15,12 +16,13 @@ header {
 .containerLogo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  padding-left: 30px;
 }
 
 .logo {
   width: 90px;
   height: 20px;
+  margin-left: 50px;
 }
 
 .containerSearch {
@@ -55,4 +57,59 @@ header {
 
 .containerNotifications figure {
   margin-left: 20px;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 120px;
+  padding-top: 30px;
+}
+
+.watchingVideo {
+  background-color: black;
+  width: 952px;
+  height: 746px;
+}
+
+.sideBar {
+  min-width: 361px;
+  min-height: 100%;
+  margin-left: 20px;
+}
+
+.card {
+  display: flex;
+  height: 90px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card figure {
+  height: 90px;
+  width: 160px;
+}
+
+.cardInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 196px;
+  margin-left: 15px;
+}
+
+.cardInformation h3 {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0%;
+}
+
+.cardInformation p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #515151;
 }
