@@ -70,9 +70,84 @@ main {
 }
 
 .watchingVideo {
-  background-color: black;
   width: 952px;
   height: 746px;
+}
+
+.videoTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  margin: 20px 0;
+}
+
+.videoData {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.videoData div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoData figure {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.channelInformation figure {
+  width: 42px;
+  height: 42px;
+  margin-right: 10px;
+}
+
+.channelInformation div {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.channelInformation span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.videoData p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.informationViews {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.description {
+  width: 510px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  color: #515151;
+}
+
+.signUp {
+  width: 159px;
+  height: 40px;
+  background-color: #cc0000;
+  color: #ffffff;
+  border: none;
+}
+
+.signUp:hover {
+  background-color: #f46f6f;
 }
 
 .sideBar {
